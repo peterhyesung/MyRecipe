@@ -1,0 +1,32 @@
+.create-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  position: fixed;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  width: 45%;
+  height: 50%;
+  top: 20%;
+  left: 20%;
+  box-shadow: black 20px 10px 30px;
+}
+
+.create-form h1 {
+  font-size: 25px;
+  align-self: center;
+}
+
+.create-form input {
+  width: 100%;
+}
+.create-form textarea {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}

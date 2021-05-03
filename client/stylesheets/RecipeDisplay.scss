@@ -1,0 +1,37 @@
+.display-box {
+  display: flex;
+  margin: 30px;
+  height: 260px;
+  width: 270px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 0 6px 10px 4px rgba(77, 77, 77, 0.15);
+  font-size: 10px;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+}
+
+button {
+  display: block;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  height: 30px;
+  width: 110px;
+  overflow: hidden;
+  background: #4dbecf;
+  border-radius: 3px;
+  box-shadow: 0 6px 10px 4px rgba(77, 77, 77, 0.15);
+  border: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

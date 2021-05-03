@@ -1,1 +1,1 @@
-# MyRecipe
+My Recipe App
